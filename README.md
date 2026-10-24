@@ -1,6 +1,6 @@
-# Splitwise Clone API
+# Splitpay Clone API
 
-This Spring Boot project serves as a backend API for a clone of Splitwise, a popular expense management application. The API provides endpoints for managing users, groups, expenses, and settlements, facilitating seamless expense tracking and splitting among users.
+This Spring Boot project serves as a backend API for a clone of Splitpay, a popular expense management application. The API provides endpoints for managing users, groups, expenses, and settlements, facilitating seamless expense tracking and splitting among users.
 
 ## Features
 
@@ -20,14 +20,14 @@ This Spring Boot project serves as a backend API for a clone of Splitwise, a pop
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Satwik-Bhardwaj/SplitwiseAppClone.git
+   git clone https://github.com/Satwik-Bhardwaj/SplitpayAppClone.git
    ```
 
 2. **Database Configuration**:
-    - Install MySQL and create a database named `Splitwise`.
+    - Install MySQL and create a database named `Splitpay`.
     - Update `application.properties` with your MySQL username and password:
       ```properties
-      spring.datasource.url=jdbc:mysql://localhost:3306/Splitwise
+      spring.datasource.url=jdbc:mysql://localhost:3306/Splitpay
       spring.datasource.username=root
       spring.datasource.password=root
       ```
